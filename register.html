@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reg</title>
+    <link rel="stylesheet" href="./css/auth.css" />
+  </head>
+  <body>
+    <div class="auth-container">
+      <div class="auth-form">
+        <h2>Регистрация</h2>
+        <p>Заполните форму для создания нового аккаунта</p>
+        <form>
+          <div class="input-field">
+            <label for="username">Логин</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Введите ваш логин"
+            />
+          </div>
+          <div class="input-field">
+            <label for="email">Почта</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Введите вашу почту"
+            />
+          </div>
+          <div class="input-field">
+            <label for="phone">Телефон</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Введите номер телефона"
+            />
+          </div>
+          <div class="input-field">
+            <label for="password">Пароль</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Введите пароль"
+            />
+          </div>
+          <button type="submit" class="auth-button">Зарегистрироваться</button>
+        </form>
+        <p>Уже есть аккаунт? <a href="login.html">Войти</a></p>
+        <a href="index.html" class="back-button">На главную страницу</a>
+      </div>
+    </div>
+  </body>
+</html>
